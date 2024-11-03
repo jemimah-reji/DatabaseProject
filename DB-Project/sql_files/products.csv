@@ -1,0 +1,4 @@
+ProductID,ProductName,Description,Price,StockQuantity
+1,"Laptop","High-performance laptop",999.99,10
+2,"Headphones","Noise-cancelling headphones",199.99,25
+3,"Smartphone","Latest model smartphone",799.99,15
