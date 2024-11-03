@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Processing</title>
+</head>
+<body>
+    <h1>Payment Processing</h1>
+    <form action="process_payment.php" method="POST">
+        <label for="paymentID">Payment ID:</label>
+        <input type="text" id="paymentID" name="paymentID" required><br><br>
+
+        <label for="orderID">Order ID:</label>
+        <input type="text" id="orderID" name="orderID" required><br><br>
+
+        <label for="paymentDate">Payment Date:</label>
+        <input type="date" id="paymentDate" name="paymentDate" required><br><br>
+
+        <label for="totalAmount">Total Amount:</label>
+        <input type="number" step="0.01" id="totalAmount" name="totalAmount" required><br><br>
+
+        <label for="paymentMethod">Payment Method:</label>
+        <select id="paymentMethod" name="paymentMethod">
+            <option value="credit">Credit Card</option>
+            <option value="debit">Debit Card</option>
+            <option value="paypal">PayPal</option>
+        </select><br><br>
+
+        <button type="submit">Make Payment</button>
+    </form>
+</body>
+</html>
+
+
+<link rel="stylesheet" href="styles.css">
