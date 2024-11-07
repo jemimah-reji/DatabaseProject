@@ -15,7 +15,7 @@ This project is a PHP and MySQL-based application for managing products. Follow 
    Clone this repository to your local machine, or download it as a ZIP and extract the contents.
    
    ```bash
-   git clone https://github.com/yourusername/DB-Project.git
+   git clone https://github.com/jemimahreji/DB-Project.git
    ```
 
 2. **Move Project to XAMPP’s htdocs Folder**  
