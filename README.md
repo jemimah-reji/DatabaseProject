@@ -1,4 +1,4 @@
-```markdown
+---
 # DB-Project
 
 This project is a PHP and MySQL-based application for managing products. Follow the instructions below to set it up and run it on your local machine using XAMPP.
@@ -76,4 +76,4 @@ This project is a PHP and MySQL-based application for managing products. Follow 
 ---
 
 If you have any questions or run into issues, feel free to reach out!
-```
+
