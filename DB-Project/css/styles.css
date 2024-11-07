@@ -1,0 +1,65 @@
+/* styles.css */
+
+/* Global font and body styling */
+body {
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f8f4e3; /* Light cream background */
+    color: #4e342e; /* Dark brown for text */
+    margin: 0;
+}
+
+/* Main container styling */
+.container {
+    text-align: center;
+    max-width: 600px;
+    padding: 2rem;
+    background: #fffaf3; /* Slightly off-white cream */
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border: 1px solid #d6cab8; /* Subtle border matching the theme */
+}
+
+/* Logo styling */
+.logo {
+    width: 180px; /* Set an appropriate width for your logo */
+    margin-bottom: 1rem;
+}
+
+/* Heading styling */
+h1 {
+    color: #4e342e; /* Dark brown */
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+/* Button styling */
+.custom-btn {
+    width: 100%;
+    margin-top: 1rem;
+    padding: 0.75rem;
+    font-weight: 600;
+    color: #4e342e; /* Dark brown text */
+    background-color: #fffaf3; /* Matching the container cream */
+    border: 2px solid #4e342e;
+    transition: all 0.3s ease;
+}
+
+.custom-btn:hover {
+    background-color: #4e342e; /* Dark brown on hover */
+    color: #fffaf3; /* Cream text on hover */
+    box-shadow: 0 4px 8px rgba(78, 52, 46, 0.4);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .container {
+        padding: 1.5rem;
+    }
+    .logo {
+        width: 100px; /* Slightly smaller logo on smaller screens */
+    }
+}
